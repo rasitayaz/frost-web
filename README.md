@@ -1,8 +1,8 @@
 # Frost Web
-Multi-tab browser app using Chrome WebView
+Multi-tab android browser app using Chrome WebView
 
 ## Functionalities
-* Browse through internet with Chrome WebView
+* Browse through internet using Chrome WebView
 * Multi-tab support using multiple WebViews
 * Saves browse history
 * Turkish and English language support
