@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="interface"
+        android:title="@string/interface_settings">
+
+        <ListPreference
+            android:defaultValue="system"
+            android:entries="@array/languages"
+            android:entryValues="@array/locales"
+            android:key="language"
+            android:summary="@string/lang_def"
+            android:title="@string/lang" />
+
+        <ListPreference
+            android:defaultValue="system"
+            android:entries="@array/theme_entries"
+            android:entryValues="@array/theme_values"
+            android:key="theme"
+            android:summary="@string/theme_def"
+            android:title="@string/theme" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="force_dark"
+            android:summary="@string/force_dark_summary"
+            android:title="@string/force_dark" />
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="browser"
+        android:title="@string/browser">
+
+        <EditTextPreference
+            android:defaultValue="@string/new_tab_url"
+            android:dialogMessage="@string/homepage_dialog"
+            android:dialogTitle="@string/homepage"
+            android:inputType="textUri"
+            android:key="homepage"
+            android:summary="@string/new_tab_url"
+            android:title="@string/homepage" />
+
+        <ListPreference
+            android:defaultValue="restore_session"
+            android:entries="@array/start_entries"
+            android:entryValues="@array/start_values"
+            android:key="startup"
+            android:summary="@string/restore_session"
+            android:title="@string/startup" />
+
+        <ListPreference
+            android:defaultValue="@string/google"
+            android:entries="@array/search_engines"
+            android:entryValues="@array/search_engines"
+            android:key="search_engine"
+            android:summary="@string/google"
+            android:title="@string/search_engine" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="javascript_enabled"
+            android:title="@string/enable_javascript" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="zoom"
+            android:title="@string/zoom" />
+
+    </PreferenceCategory>
+</androidx.preference.PreferenceScreen>

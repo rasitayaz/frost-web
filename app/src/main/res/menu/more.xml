@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/itemNewTab"
+        android:title="@string/new_tab"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/itemTabs"
+        android:title="@string/tabs"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/itemHomepage"
+        android:title="@string/go_home"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/itemHistory"
+        android:title="@string/history"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/itemSettings"
+        android:title="@string/settings"
+        app:showAsAction="never" />
+</menu>

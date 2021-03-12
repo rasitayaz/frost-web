@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorCardBg">#1D1D1D</color>
+    <color name="colorText">#ffffff</color>
+    <color name="colorTextHint">#657AA2</color>
+    <color name="colorTextHighlight">#243756</color>
+    <color name="colorBg">#161616</color>
+    <color name="colorBgAlt">#243756</color>
+    <color name="colorFg">#b1cfff</color>
+    <color name="colorFgAlt">#FFFFFF</color>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="languages">
+        <item>@string/lang_def</item>
+        <item>@string/lang_en</item>
+        <item>@string/lang_tr</item>
+    </string-array>
+
+    <string-array name="theme_entries">
+        <item>@string/theme_def</item>
+        <item>@string/theme_light</item>
+        <item>@string/theme_dark</item>
+    </string-array>
+
+    <string-array name="theme_values">
+        <item>system</item>
+        <item>light</item>
+        <item>dark</item>
+    </string-array>
+
+    <string-array name="search_engines">
+        <item>@string/google</item>
+        <item>@string/yandex</item>
+        <item>@string/bing</item>
+        <item>@string/yahoo</item>
+    </string-array>
+
+    <string-array name="start_entries">
+        <item>@string/restore_session</item>
+        <item>@string/load_homepage</item>
+        <item>@string/load_empty_page</item>
+    </string-array>
+
+    <string-array name="start_values">
+        <item>restore_session</item>
+        <item>load_homepage</item>
+        <item>load_empty_page</item>
+    </string-array>
+</resources>

@@ -1,0 +1,58 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorBg</item>
+        <item name="android:textColor">@color/colorText</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="android:textColor">@color/colorText</item>
+        <item name="buttonBarButtonStyle">@style/AlertDialogButtonTheme</item>
+    </style>
+
+    <style name="AlertDialogButtonTheme" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/colorFg</item>
+    </style>
+
+    <style name="EditTextTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorControlNormal">@color/colorText</item>
+        <item name="colorControlActivated">@color/colorFg</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="editTextColor">@color/colorText</item>
+        <item name="android:textColorHighlight">@color/colorTextHighlight</item>
+    </style>
+
+    <style name="ActionBarButton" parent="Widget.AppCompat.ImageButton">
+        <item name="android:background">?attr/actionBarItemBackground</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_width">40dp</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:layout_marginStart">4dp</item>
+        <item name="android:layout_marginEnd">4dp</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <style name="SearchEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">9dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:imeOptions">actionGo</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:inputType">textUri</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:selectAllOnFocus">true</item>
+        <item name="android:hint">@string/search_hint</item>
+    </style>
+
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryLighter">#b1cfff</color>
+    <color name="colorPrimaryLight">#2B456F</color>
+    <color name="colorPrimary">#243756</color>
+    <color name="colorPrimaryDark">#19263b</color>
+    <color name="colorAccent">#6ba3ff</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="darkerGray">#161616</color>
+    <color name="colorRipple">#BBBBBB</color>
+
+    <!-- Day Night Colors -->
+    <color name="colorCardBg">#eeeeee</color>
+    <color name="colorText">#222222</color>
+    <color name="colorTextHint">#838DA2</color>
+    <color name="colorTextHighlight">#b1cfff</color>
+    <color name="colorBg">#FFFFFF</color>
+    <color name="colorBgAlt">#FFFFFF</color>
+    <color name="colorFg">#243756</color>
+    <color name="colorFgAlt">#243756</color>
+</resources>

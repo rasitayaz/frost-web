@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="system_locale" translatable="false">system</string>
+    <string name="default_locale" translatable="false">default</string>
+    <string-array name="locales">
+        <item>@string/system_locale</item> <!-- system setting -->
+        <item>en</item>
+        <item>tr</item>
+    </string-array>
+</resources>
